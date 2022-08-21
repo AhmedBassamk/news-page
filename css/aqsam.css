@@ -1,0 +1,101 @@
+.con {
+    background-color: rgb(245, 242, 242);
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 1800px;
+    /* height: 700px; */
+    margin-top: 80px;
+    display: flex;
+    overflow: hidden;
+    background-color: rgb(243, 237, 237);
+}
+
+img {
+    width: 100%;
+}
+
+.imgnew {
+    padding: 10px 0;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    position: relative;
+}
+
+.flfl {
+    display: flex;
+}
+
+.flfl .imgnew {
+    padding: 10px;
+    overflow: hidden;
+}
+
+ .imgnew:hover {
+    transform:scale(1.2) ;
+    -webkit-transform:scale(1.2) ;
+    -moz-transform:scale(1.2) ;
+    -ms-transform:scale(1.2) ;
+    -o-transform:scale(1.2) ;
+    z-index: 1;
+}
+.imgnew:hover .pp{
+opacity: 1;
+
+}
+.imgnew:hover .p{
+opacity: 1;
+}
+
+.pp {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    color: white;
+    top:10px ;
+    font-weight: bold;
+    padding: 30px;
+    width: 100%;
+    opacity: 0;
+    transition:1s ;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 560px;
+    font-family: 'Reem Kufi', sans-serif;
+    -webkit-transition:1s ;
+    -moz-transition:1s ;
+    -ms-transition:1s ;
+    -o-transition:1s ;
+}
+
+.p{
+    width: 95%;
+    font-family: 'Reem Kufi', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    top: 10px;
+    height: 240px;
+    transition:1s ;
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    -webkit-transition:1s ;
+    -moz-transition:1s ;
+    -ms-transition:1s ;
+    -o-transition:1s ;
+}
+.wid{
+    width: 800px;
+}
